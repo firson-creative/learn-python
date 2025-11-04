@@ -18,4 +18,4 @@ else:
 
 print("Nilai A: ", a)    
 print("Nilai B: ", b)
-print(Hello)    
+print('Hello')   
