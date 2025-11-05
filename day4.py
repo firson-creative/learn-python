@@ -12,10 +12,10 @@ def lirikna():
         "像飞舞蝴蝶被绚烂色彩吸引"
     ]
 
-    d = [0.1, 0.2, 0.2, 0.2, 0.1]
+    d = [2, 2, 2, 1, 1]
 
     print("Lagu buat ta cinta \n")
-    time.sleep(0.2)
+    time.sleep(0.3)
 
     for i, line in enumerate(lirik):
         for char in line:
