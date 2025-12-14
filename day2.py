@@ -1,5 +1,5 @@
 from flask import Flask, request, url_for
-from day1.py import a, b
+import day1
 
 app = Flask(__name__)
 
@@ -9,7 +9,7 @@ def status():
 
 @app.route('/beranda')
 def home():
-    return day1.py
+    return "Hello from day1!"
 
 if __name__ == '__main__':
     app.run(debug=True)
